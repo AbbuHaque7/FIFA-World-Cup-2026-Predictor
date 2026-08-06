@@ -147,7 +147,7 @@ FIFA-World-Cup-2026-Predictor/
 Clone the repository and install the required Python packages:
 
 ```bash
-git clone https://github.com/<your-username>/FIFA-World-Cup-2026-Predictor.git
+git clone https://github.com/AbbuHaque7/FIFA-World-Cup-2026-Predictor.git
 
 cd FIFA-World-Cup-2026-Predictor
 
