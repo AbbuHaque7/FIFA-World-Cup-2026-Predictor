@@ -1,0 +1,10 @@
+reg_lambda: 3
+reg_alpha: 1
+num_leaves: 25
+n_estimators: 200
+min_child_samples: 100
+max_depth: 6
+learning_rate: 0.03
+feature_fraction: 0.8
+bagging_freq: 1
+bagging_fraction: 0.9
