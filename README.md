@@ -1,18 +1,18 @@
 # FIFA World Cup 2026 Predictor
 
-![Python](...)
-![LightGBM](...)
-![License: MIT](...)
-![Status: Complete](...)
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![LightGBM](https://img.shields.io/badge/Model-LightGBM-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status: Complete](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 
 ## Overview
 
 I built this project to explore whether the outcome of international football matches can be predicted using historical data and machine learning.
 
-I started with the raw international match data, then developed an end-to-end prediction pipeline that performs data preprocessing, calculates custom Elo ratings, engineers match-level features, trains multiple machine learning models, and predicts match outcomes. The final pipeline is also capable of simulating an entire FIFA World Cup tournament using the trained model.
+I started with the raw international match data, then developed an end-to-end prediction pipeline that performs data preprocessing, calculates custom Elo ratings, engineers match-level features, trains multiple machine learning models, and predicts match outcomes. The final pipeline can also simulate an entire FIFA World Cup tournament using the trained model.
 
-I experimented with multiple versions of the Elo rating system throughout the project, with several feature engineering approaches and different machine learning algorithms before selecting a tuned LightGBM model as the final predictor.
+throughout the project, I experimented with multiple versions of the Elo rating system throughout the project, with several feature engineering approaches and different machine learning algorithms before selecting a tuned LightGBM model as the final predictor.
 
 This repository contains the complete development workflow from raw datasets and exploratory notebooks to the trained model, prediction pipeline, technical report, and World Cup simulator.
 
