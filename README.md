@@ -181,7 +181,13 @@ Although the current pipeline produces reliable match predictions, there are sev
 - Explore advanced ensemble and deep learning approaches.
 - Deploy the prediction pipeline as an interactive web application.
 
+## Historical Dataset Update — November 2026
 
+The historical international match dataset has been updated with 520 additional matches, extending the coverage from 7 July 2026 to 17 November 2026.
+
+The updated dataset now contains 24,280 matches across 210 teams.
+
+This update is provided as an additional dataset. The original model, engineered features, Elo ratings, evaluation results, and predictions remain unchanged and are based on the previously documented dataset.
 
 ## License
 
