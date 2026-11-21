@@ -183,11 +183,36 @@ Although the current pipeline produces reliable match predictions, there are sev
 
 ## Historical Dataset Update — November 2026
 
-The historical international match dataset has been updated with 520 additional matches, extending the coverage from 7 July 2026 to 17 November 2026.
+### Why Was the Dataset Updated?
 
-The updated dataset now contains 24,280 matches across 210 teams.
+International football results continue to change, and newer matches provide additional information about teams' recent performance.
 
-This update is provided as an additional dataset. The original model, engineered features, Elo ratings, evaluation results, and predictions remain unchanged and are based on the previously documented dataset.
+To keep the project's historical data up to date ahead of the 2026 FIFA World Cup, I added 520 international matches played between 9 July and 17 November 2026.
+
+**This will be an ongoing update:** I intend to maintain the updated CSV as the project's latest historical dataset by adding newly played international fixtures in future updates, rather than creating a separate CSV for every update.
+
+The original dataset has been preserved to maintain reproducibility and allow comparisons between models trained on different versions of the historical data.
+
+### Dataset Comparison
+
+| Dataset | Matches | Latest Match |
+|---|---:|---|
+| Original | 23,760 | 7 July 2026 |
+| Updated | 24,280 | 17 November 2026 |
+
+The updated dataset retains the existing scope of 210 teams. Team names were standardized, and duplicate records and missing values were checked.
+
+### Retraining the Model
+
+The updated dataset follows the same structure as the original, so the existing workflow can be reused.
+
+To train a new model:
+1. Replace the original CSV path with `results_2000_fifa211_18-11-2026.csv` in the relevant notebooks.
+2. Run the notebooks in the existing workflow order to regenerate team statistics, Elo ratings, and engineered features.
+3. Run the model training and evaluation notebooks.
+4. Save the newly trained model and its corresponding feature columns.
+
+**Note:** Existing Elo ratings, engineered features, trained models, and evaluation results have not been regenerated. They remain based on the original dataset. The updated CSV is provided for further experimentation and model retraining.
 
 ## License
 
