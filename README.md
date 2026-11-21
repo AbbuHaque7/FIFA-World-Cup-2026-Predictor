@@ -213,7 +213,7 @@ To train a new model:
 4. Save the newly trained model and its corresponding feature columns.
 
 **Note:** Existing Elo ratings, engineered features, trained models, and evaluation results have not been regenerated. They remain based on the original dataset. The updated CSV is provided for further experimentation and model retraining.
-
+**Note:** The filename `results_2000_fifa211_18-11-2026.csv` uses the update date (18 November 2026) in Indian Standard Time (IST), while the latest match included in the dataset was played on 17 November 2026.
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
